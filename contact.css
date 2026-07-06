@@ -1,0 +1,90 @@
+/* CONTACT PAGE STYLES */
+.contact-container h2 {
+    text-align: center;
+    color: #3E2723;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-container > p {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.contact-content {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    flex: 1;
+    background: #FFF8E1;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contact-info h3 {
+    color: #3E2723;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.contact-info strong {
+    color: #6B4423;
+}
+
+.contact-info img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form h3 {
+    color: #3E2723;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 2px solid #FFECB3;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #6B4423;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
